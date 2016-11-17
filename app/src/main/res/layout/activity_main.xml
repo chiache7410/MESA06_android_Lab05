@@ -27,9 +27,11 @@
             android:id="@+id/clear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Clear"/>
+            android:text="Clear"
+            android:onClick="clear"/>
     </LinearLayout>
     <tw.org.iii.lab05.MyView
+        android:id="@+id/myview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
