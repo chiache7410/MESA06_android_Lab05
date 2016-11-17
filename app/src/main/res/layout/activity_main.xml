@@ -24,11 +24,12 @@
             android:layout_height="wrap_content"
             android:text="Redo"/>
         <Button
+            android:id="@+id/clear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Clear"/>
     </LinearLayout>
-    <TextView
+    <tw.org.iii.lab05.MyView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
